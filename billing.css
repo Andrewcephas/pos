@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1200px;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .section {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #items .card {
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #billList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #billList li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #checkoutButton {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#checkoutButton:hover {
+    background-color: #218838;
+}
+
+#checkoutButton:active {
+    transform: scale(0.98);
+}
